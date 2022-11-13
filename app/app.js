@@ -3,9 +3,9 @@ import React, { useState } from "react"
 import ReactDOM from "react-dom"
 
 function App() {
-  return (
 
     const [todos, setTodos] = useState([]);
+    return (
 
     <div className="APP">
       <header className="App-header">
