@@ -1,13 +1,19 @@
 import "./styles/main.scss";
 import React from "react";
 import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import todo from "./components/todo";
 
 function App() {
   return (
-    <div className="APP">
-      <header className="App-header">
-        <p>React Todo</p>
-      </header>
+    <div
+      className="container border border-primary rounded mt-5"
+      style={{
+        background: `url(https://walpapercave.com/wp/wp7422936.jpg)`,
+        backgroundSize: "cover",
+      }}
+    >
+      <todo />
     </div>
   );
 }

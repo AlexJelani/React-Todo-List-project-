@@ -1,5 +1,6 @@
 /* You are free to use SCSS (Sass) features here */
-
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
 body {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
