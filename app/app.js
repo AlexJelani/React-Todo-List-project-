@@ -1,24 +1,19 @@
-import "./styles/main.scss"
-import React, { useState } from "react"
-import ReactDOM from "react-dom"
+import "./styles/main.scss";
+import React from "react";
+import ReactDOM from "react-dom";
 
 function App() {
-
-    const [todos, setTodos] = useState([]);
-    return (
-
+  return (
     <div className="APP">
       <header className="App-header">
         <p>React Todo</p>
       </header>
     </div>
-
   );
-  
 }
 
-ReactDOM.render(<App />, document.getElementById("app"))
+ReactDOM.render(<App />, document.getElementById("app"));
 
 if (module.hot) {
-  module.hot.accept()
+  module.hot.accept();
 }
